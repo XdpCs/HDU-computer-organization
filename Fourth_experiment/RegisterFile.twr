@@ -1,0 +1,109 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+E:\Xlinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3 -n
+3 -fastpaths -xml RegisterFile.twx RegisterFile.ncd -o RegisterFile.twr
+RegisterFile.pcf
+
+Design file:              RegisterFile.ncd
+Physical constraint file: RegisterFile.pcf
+Device,package,speed:     xc6slx16,csg324,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock Clk
+------------+------------+------------+------------+------------+------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+------------+------------+------------+------------+------------+------------------+--------+
+Addr<0>     |    4.035(R)|      SLOW  |   -0.833(R)|      FAST  |Clk_BUFGP         |   0.000|
+Addr<1>     |    4.456(R)|      SLOW  |   -0.716(R)|      FAST  |Clk_BUFGP         |   0.000|
+Addr<2>     |    4.381(R)|      SLOW  |   -0.735(R)|      FAST  |Clk_BUFGP         |   0.000|
+Addr<3>     |    3.876(R)|      SLOW  |   -0.619(R)|      FAST  |Clk_BUFGP         |   0.000|
+Addr<4>     |    3.743(R)|      SLOW  |   -0.745(R)|      FAST  |Clk_BUFGP         |   0.000|
+Reset       |    2.957(R)|      SLOW  |   -0.315(R)|      SLOW  |Clk_BUFGP         |   0.000|
+------------+------------+------------+------------+------------+------------------+--------+
+
+Setup/Hold to clock Write_Reg
+------------+------------+------------+------------+------------+-------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                   | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s)  | Phase  |
+------------+------------+------------+------------+------------+-------------------+--------+
+A_B         |    3.608(R)|      SLOW  |   -0.120(R)|      SLOW  |Write_Reg_IBUF_BUFG|   0.000|
+Addr<0>     |    1.931(R)|      SLOW  |   -1.147(R)|      FAST  |Write_Reg_IBUF_BUFG|   0.000|
+Addr<1>     |    2.286(R)|      SLOW  |   -0.913(R)|      FAST  |Write_Reg_IBUF_BUFG|   0.000|
+Addr<2>     |    2.331(R)|      SLOW  |   -0.846(R)|      SLOW  |Write_Reg_IBUF_BUFG|   0.000|
+Addr<3>     |    1.488(R)|      SLOW  |   -0.886(R)|      FAST  |Write_Reg_IBUF_BUFG|   0.000|
+Addr<4>     |    0.959(R)|      FAST  |   -0.014(R)|      SLOW  |Write_Reg_IBUF_BUFG|   0.000|
+Opt<0>      |    2.913(R)|      SLOW  |   -0.827(R)|      SLOW  |Write_Reg_IBUF_BUFG|   0.000|
+            |    2.677(F)|      SLOW  |   -0.867(F)|      SLOW  |Write_Reg_IBUF_BUFG|   0.000|
+Opt<1>      |    2.993(R)|      SLOW  |   -0.868(R)|      SLOW  |Write_Reg_IBUF_BUFG|   0.000|
+            |    2.757(F)|      SLOW  |   -1.231(F)|      FAST  |Write_Reg_IBUF_BUFG|   0.000|
+------------+------------+------------+------------+------------+-------------------+--------+
+
+Clock Write_Reg to Pad
+------------+-----------------+------------+-----------------+------------+-------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                   | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)  | Phase  |
+------------+-----------------+------------+-----------------+------------+-------------------+--------+
+LED<0>      |         7.139(R)|      SLOW  |         3.701(R)|      FAST  |Write_Reg_IBUF_BUFG|   0.000|
+LED<1>      |         7.267(R)|      SLOW  |         3.775(R)|      FAST  |Write_Reg_IBUF_BUFG|   0.000|
+LED<2>      |         7.222(R)|      SLOW  |         3.760(R)|      FAST  |Write_Reg_IBUF_BUFG|   0.000|
+LED<3>      |         7.262(R)|      SLOW  |         3.777(R)|      FAST  |Write_Reg_IBUF_BUFG|   0.000|
+LED<4>      |         7.434(R)|      SLOW  |         3.870(R)|      FAST  |Write_Reg_IBUF_BUFG|   0.000|
+LED<5>      |         8.012(R)|      SLOW  |         4.237(R)|      FAST  |Write_Reg_IBUF_BUFG|   0.000|
+LED<6>      |         7.413(R)|      SLOW  |         3.867(R)|      FAST  |Write_Reg_IBUF_BUFG|   0.000|
+LED<7>      |         7.480(R)|      SLOW  |         3.931(R)|      FAST  |Write_Reg_IBUF_BUFG|   0.000|
+------------+-----------------+------------+-----------------+------------+-------------------+--------+
+
+Clock to Setup on destination clock Clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+Clk            |    1.199|         |         |         |
+Write_Reg      |    3.254|    3.756|         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock Write_Reg
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+Clk            |    5.623|         |         |         |
+Write_Reg      |    5.791|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Thu Dec 17 00:43:43 2020 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4575 MB
+
+
+

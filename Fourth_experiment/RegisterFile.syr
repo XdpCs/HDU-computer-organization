@@ -1,0 +1,634 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.16 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.16 secs
+ 
+--> Reading design: RegisterFile.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "RegisterFile.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "RegisterFile"
+Output Format                      : NGC
+Target Device                      : xc6slx16-3-csg324
+
+---- Source Options
+Top Module Name                    : RegisterFile
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "F:\Desktop\FPGA\Fourth_experiment\Fourth_experiment_first.v" into library work
+Parsing module <Fourth_experiment_first>.
+Analyzing Verilog file "F:\Desktop\FPGA\Fourth_experiment\RegisterFile.v" into library work
+Parsing module <RegisterFile>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <RegisterFile>.
+
+Elaborating module <Fourth_experiment_first>.
+WARNING:HDLCompiler:91 - "F:\Desktop\FPGA\Fourth_experiment\RegisterFile.v" Line 46: Signal <R_Data_A> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "F:\Desktop\FPGA\Fourth_experiment\RegisterFile.v" Line 47: Signal <R_Data_A> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "F:\Desktop\FPGA\Fourth_experiment\RegisterFile.v" Line 48: Signal <R_Data_A> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "F:\Desktop\FPGA\Fourth_experiment\RegisterFile.v" Line 49: Signal <R_Data_A> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "F:\Desktop\FPGA\Fourth_experiment\RegisterFile.v" Line 56: Signal <R_Data_B> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "F:\Desktop\FPGA\Fourth_experiment\RegisterFile.v" Line 57: Signal <R_Data_B> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "F:\Desktop\FPGA\Fourth_experiment\RegisterFile.v" Line 58: Signal <R_Data_B> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "F:\Desktop\FPGA\Fourth_experiment\RegisterFile.v" Line 59: Signal <R_Data_B> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <RegisterFile>.
+    Related source file is "F:\Desktop\FPGA\Fourth_experiment\RegisterFile.v".
+    Found 1-bit 4-to-1 multiplexer for signal <Opt[1]_R_Data_A[31]_wide_mux_1_OUT[7]> created at line 45.
+    Found 1-bit 4-to-1 multiplexer for signal <Opt[1]_R_Data_A[31]_wide_mux_1_OUT[6]> created at line 45.
+    Found 1-bit 4-to-1 multiplexer for signal <Opt[1]_R_Data_A[31]_wide_mux_1_OUT[5]> created at line 45.
+    Found 1-bit 4-to-1 multiplexer for signal <Opt[1]_R_Data_A[31]_wide_mux_1_OUT[4]> created at line 45.
+    Found 1-bit 4-to-1 multiplexer for signal <Opt[1]_R_Data_A[31]_wide_mux_1_OUT[3]> created at line 45.
+    Found 1-bit 4-to-1 multiplexer for signal <Opt[1]_R_Data_A[31]_wide_mux_1_OUT[2]> created at line 45.
+    Found 1-bit 4-to-1 multiplexer for signal <Opt[1]_R_Data_A[31]_wide_mux_1_OUT[1]> created at line 45.
+    Found 1-bit 4-to-1 multiplexer for signal <Opt[1]_R_Data_A[31]_wide_mux_1_OUT[0]> created at line 45.
+    Found 1-bit 4-to-1 multiplexer for signal <Opt[1]_R_Data_B[31]_wide_mux_2_OUT[7]> created at line 55.
+    Found 1-bit 4-to-1 multiplexer for signal <Opt[1]_R_Data_B[31]_wide_mux_2_OUT[6]> created at line 55.
+    Found 1-bit 4-to-1 multiplexer for signal <Opt[1]_R_Data_B[31]_wide_mux_2_OUT[5]> created at line 55.
+    Found 1-bit 4-to-1 multiplexer for signal <Opt[1]_R_Data_B[31]_wide_mux_2_OUT[4]> created at line 55.
+    Found 1-bit 4-to-1 multiplexer for signal <Opt[1]_R_Data_B[31]_wide_mux_2_OUT[3]> created at line 55.
+    Found 1-bit 4-to-1 multiplexer for signal <Opt[1]_R_Data_B[31]_wide_mux_2_OUT[2]> created at line 55.
+    Found 1-bit 4-to-1 multiplexer for signal <Opt[1]_R_Data_B[31]_wide_mux_2_OUT[1]> created at line 55.
+    Found 1-bit 4-to-1 multiplexer for signal <Opt[1]_R_Data_B[31]_wide_mux_2_OUT[0]> created at line 55.
+WARNING:Xst:737 - Found 1-bit latch for signal <W_Data<27>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <W_Data<19>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <W_Data<3>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R_Addr_A<4>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R_Addr_A<3>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R_Addr_A<2>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R_Addr_A<1>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R_Addr_A<0>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <LED<7>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <LED<6>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <LED<5>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <LED<4>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <LED<3>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <LED<2>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <LED<1>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <LED<0>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R_Addr_B<4>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R_Addr_B<3>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R_Addr_B<2>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R_Addr_B<1>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <R_Addr_B<0>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <W_Data<31>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Summary:
+	inferred  22 Latch(s).
+	inferred  24 Multiplexer(s).
+Unit <RegisterFile> synthesized.
+
+Synthesizing Unit <Fourth_experiment_first>.
+    Related source file is "F:\Desktop\FPGA\Fourth_experiment\Fourth_experiment_first.v".
+    Found 1024-bit register for signal <n0043[1023:0]>.
+    Found 32-bit 32-to-1 multiplexer for signal <R_Data_A> created at line 41.
+    Found 32-bit 32-to-1 multiplexer for signal <R_Data_B> created at line 42.
+    Summary:
+	inferred 1024 D-type flip-flop(s).
+	inferred  34 Multiplexer(s).
+Unit <Fourth_experiment_first> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 1
+ 1024-bit register                                     : 1
+# Latches                                              : 22
+ 1-bit latch                                           : 22
+# Multiplexers                                         : 58
+ 1-bit 2-to-1 multiplexer                              : 8
+ 1-bit 4-to-1 multiplexer                              : 16
+ 32-bit 2-to-1 multiplexer                             : 32
+ 32-bit 32-to-1 multiplexer                            : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 1024
+ Flip-Flops                                            : 1024
+# Multiplexers                                         : 58
+ 1-bit 2-to-1 multiplexer                              : 8
+ 1-bit 4-to-1 multiplexer                              : 16
+ 32-bit 2-to-1 multiplexer                             : 32
+ 32-bit 32-to-1 multiplexer                            : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <RegisterFile> ...
+
+Optimizing unit <Fourth_experiment_first> ...
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_659> in Unit <RegisterFile> is equivalent to the following 3 FFs/Latches, which will be removed : <F1/REG_Files_31_658> <F1/REG_Files_31_657> <F1/REG_Files_31_656> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_671> in Unit <RegisterFile> is equivalent to the following 11 FFs/Latches, which will be removed : <F1/REG_Files_31_670> <F1/REG_Files_31_668> <F1/REG_Files_31_662> <F1/REG_Files_31_660> <F1/REG_Files_31_655> <F1/REG_Files_31_654> <F1/REG_Files_31_652> <F1/REG_Files_31_647> <F1/REG_Files_31_646> <F1/REG_Files_31_645> <F1/REG_Files_31_644> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_667> in Unit <RegisterFile> is equivalent to the following 6 FFs/Latches, which will be removed : <F1/REG_Files_31_665> <F1/REG_Files_31_664> <F1/REG_Files_31_651> <F1/REG_Files_31_650> <F1/REG_Files_31_649> <F1/REG_Files_31_648> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_723> in Unit <RegisterFile> is equivalent to the following 3 FFs/Latches, which will be removed : <F1/REG_Files_31_722> <F1/REG_Files_31_721> <F1/REG_Files_31_720> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_675> in Unit <RegisterFile> is equivalent to the following 3 FFs/Latches, which will be removed : <F1/REG_Files_31_674> <F1/REG_Files_31_673> <F1/REG_Files_31_672> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_731> in Unit <RegisterFile> is equivalent to the following 6 FFs/Latches, which will be removed : <F1/REG_Files_31_729> <F1/REG_Files_31_728> <F1/REG_Files_31_715> <F1/REG_Files_31_714> <F1/REG_Files_31_713> <F1/REG_Files_31_712> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_735> in Unit <RegisterFile> is equivalent to the following 11 FFs/Latches, which will be removed : <F1/REG_Files_31_734> <F1/REG_Files_31_732> <F1/REG_Files_31_726> <F1/REG_Files_31_724> <F1/REG_Files_31_719> <F1/REG_Files_31_718> <F1/REG_Files_31_716> <F1/REG_Files_31_711> <F1/REG_Files_31_710> <F1/REG_Files_31_709> <F1/REG_Files_31_708> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_691> in Unit <RegisterFile> is equivalent to the following 3 FFs/Latches, which will be removed : <F1/REG_Files_31_690> <F1/REG_Files_31_689> <F1/REG_Files_31_688> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_739> in Unit <RegisterFile> is equivalent to the following 3 FFs/Latches, which will be removed : <F1/REG_Files_31_738> <F1/REG_Files_31_737> <F1/REG_Files_31_736> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_803> in Unit <RegisterFile> is equivalent to the following 3 FFs/Latches, which will be removed : <F1/REG_Files_31_802> <F1/REG_Files_31_801> <F1/REG_Files_31_800> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_699> in Unit <RegisterFile> is equivalent to the following 6 FFs/Latches, which will be removed : <F1/REG_Files_31_697> <F1/REG_Files_31_696> <F1/REG_Files_31_683> <F1/REG_Files_31_682> <F1/REG_Files_31_681> <F1/REG_Files_31_680> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_755> in Unit <RegisterFile> is equivalent to the following 3 FFs/Latches, which will be removed : <F1/REG_Files_31_754> <F1/REG_Files_31_753> <F1/REG_Files_31_752> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_763> in Unit <RegisterFile> is equivalent to the following 6 FFs/Latches, which will be removed : <F1/REG_Files_31_761> <F1/REG_Files_31_760> <F1/REG_Files_31_747> <F1/REG_Files_31_746> <F1/REG_Files_31_745> <F1/REG_Files_31_744> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_771> in Unit <RegisterFile> is equivalent to the following 3 FFs/Latches, which will be removed : <F1/REG_Files_31_770> <F1/REG_Files_31_769> <F1/REG_Files_31_768> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_767> in Unit <RegisterFile> is equivalent to the following 11 FFs/Latches, which will be removed : <F1/REG_Files_31_766> <F1/REG_Files_31_764> <F1/REG_Files_31_758> <F1/REG_Files_31_756> <F1/REG_Files_31_751> <F1/REG_Files_31_750> <F1/REG_Files_31_748> <F1/REG_Files_31_743> <F1/REG_Files_31_742> <F1/REG_Files_31_741> <F1/REG_Files_31_740> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_819> in Unit <RegisterFile> is equivalent to the following 3 FFs/Latches, which will be removed : <F1/REG_Files_31_818> <F1/REG_Files_31_817> <F1/REG_Files_31_816> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_831> in Unit <RegisterFile> is equivalent to the following 11 FFs/Latches, which will be removed : <F1/REG_Files_31_830> <F1/REG_Files_31_828> <F1/REG_Files_31_822> <F1/REG_Files_31_820> <F1/REG_Files_31_815> <F1/REG_Files_31_814> <F1/REG_Files_31_812> <F1/REG_Files_31_807> <F1/REG_Files_31_806> <F1/REG_Files_31_805> <F1/REG_Files_31_804> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_827> in Unit <RegisterFile> is equivalent to the following 6 FFs/Latches, which will be removed : <F1/REG_Files_31_825> <F1/REG_Files_31_824> <F1/REG_Files_31_811> <F1/REG_Files_31_810> <F1/REG_Files_31_809> <F1/REG_Files_31_808> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_835> in Unit <RegisterFile> is equivalent to the following 3 FFs/Latches, which will be removed : <F1/REG_Files_31_834> <F1/REG_Files_31_833> <F1/REG_Files_31_832> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_787> in Unit <RegisterFile> is equivalent to the following 3 FFs/Latches, which will be removed : <F1/REG_Files_31_786> <F1/REG_Files_31_785> <F1/REG_Files_31_784> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_795> in Unit <RegisterFile> is equivalent to the following 6 FFs/Latches, which will be removed : <F1/REG_Files_31_793> <F1/REG_Files_31_792> <F1/REG_Files_31_779> <F1/REG_Files_31_778> <F1/REG_Files_31_777> <F1/REG_Files_31_776> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_851> in Unit <RegisterFile> is equivalent to the following 3 FFs/Latches, which will be removed : <F1/REG_Files_31_850> <F1/REG_Files_31_849> <F1/REG_Files_31_848> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_115> in Unit <RegisterFile> is equivalent to the following 3 FFs/Latches, which will be removed : <F1/REG_Files_31_114> <F1/REG_Files_31_113> <F1/REG_Files_31_112> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_799> in Unit <RegisterFile> is equivalent to the following 11 FFs/Latches, which will be removed : <F1/REG_Files_31_798> <F1/REG_Files_31_796> <F1/REG_Files_31_790> <F1/REG_Files_31_788> <F1/REG_Files_31_783> <F1/REG_Files_31_782> <F1/REG_Files_31_780> <F1/REG_Files_31_775> <F1/REG_Files_31_774> <F1/REG_Files_31_773> <F1/REG_Files_31_772> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_123> in Unit <RegisterFile> is equivalent to the following 6 FFs/Latches, which will be removed : <F1/REG_Files_31_121> <F1/REG_Files_31_120> <F1/REG_Files_31_107> <F1/REG_Files_31_106> <F1/REG_Files_31_105> <F1/REG_Files_31_104> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_863> in Unit <RegisterFile> is equivalent to the following 11 FFs/Latches, which will be removed : <F1/REG_Files_31_862> <F1/REG_Files_31_860> <F1/REG_Files_31_854> <F1/REG_Files_31_852> <F1/REG_Files_31_847> <F1/REG_Files_31_846> <F1/REG_Files_31_844> <F1/REG_Files_31_839> <F1/REG_Files_31_838> <F1/REG_Files_31_837> <F1/REG_Files_31_836> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_859> in Unit <RegisterFile> is equivalent to the following 6 FFs/Latches, which will be removed : <F1/REG_Files_31_857> <F1/REG_Files_31_856> <F1/REG_Files_31_843> <F1/REG_Files_31_842> <F1/REG_Files_31_841> <F1/REG_Files_31_840> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_131> in Unit <RegisterFile> is equivalent to the following 3 FFs/Latches, which will be removed : <F1/REG_Files_31_130> <F1/REG_Files_31_129> <F1/REG_Files_31_128> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_915> in Unit <RegisterFile> is equivalent to the following 3 FFs/Latches, which will be removed : <F1/REG_Files_31_914> <F1/REG_Files_31_913> <F1/REG_Files_31_912> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_127> in Unit <RegisterFile> is equivalent to the following 11 FFs/Latches, which will be removed : <F1/REG_Files_31_126> <F1/REG_Files_31_124> <F1/REG_Files_31_118> <F1/REG_Files_31_116> <F1/REG_Files_31_111> <F1/REG_Files_31_110> <F1/REG_Files_31_108> <F1/REG_Files_31_103> <F1/REG_Files_31_102> <F1/REG_Files_31_101> <F1/REG_Files_31_100> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_867> in Unit <RegisterFile> is equivalent to the following 3 FFs/Latches, which will be removed : <F1/REG_Files_31_866> <F1/REG_Files_31_865> <F1/REG_Files_31_864> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_923> in Unit <RegisterFile> is equivalent to the following 6 FFs/Latches, which will be removed : <F1/REG_Files_31_921> <F1/REG_Files_31_920> <F1/REG_Files_31_907> <F1/REG_Files_31_906> <F1/REG_Files_31_905> <F1/REG_Files_31_904> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_931> in Unit <RegisterFile> is equivalent to the following 3 FFs/Latches, which will be removed : <F1/REG_Files_31_930> <F1/REG_Files_31_929> <F1/REG_Files_31_928> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_927> in Unit <RegisterFile> is equivalent to the following 11 FFs/Latches, which will be removed : <F1/REG_Files_31_926> <F1/REG_Files_31_924> <F1/REG_Files_31_918> <F1/REG_Files_31_916> <F1/REG_Files_31_911> <F1/REG_Files_31_910> <F1/REG_Files_31_908> <F1/REG_Files_31_903> <F1/REG_Files_31_902> <F1/REG_Files_31_901> <F1/REG_Files_31_900> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_883> in Unit <RegisterFile> is equivalent to the following 3 FFs/Latches, which will be removed : <F1/REG_Files_31_882> <F1/REG_Files_31_881> <F1/REG_Files_31_880> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_147> in Unit <RegisterFile> is equivalent to the following 3 FFs/Latches, which will be removed : <F1/REG_Files_31_146> <F1/REG_Files_31_145> <F1/REG_Files_31_144> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_891> in Unit <RegisterFile> is equivalent to the following 6 FFs/Latches, which will be removed : <F1/REG_Files_31_889> <F1/REG_Files_31_888> <F1/REG_Files_31_875> <F1/REG_Files_31_874> <F1/REG_Files_31_873> <F1/REG_Files_31_872> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_155> in Unit <RegisterFile> is equivalent to the following 6 FFs/Latches, which will be removed : <F1/REG_Files_31_153> <F1/REG_Files_31_152> <F1/REG_Files_31_139> <F1/REG_Files_31_138> <F1/REG_Files_31_137> <F1/REG_Files_31_136> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_211> in Unit <RegisterFile> is equivalent to the following 3 FFs/Latches, which will be removed : <F1/REG_Files_31_210> <F1/REG_Files_31_209> <F1/REG_Files_31_208> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_895> in Unit <RegisterFile> is equivalent to the following 11 FFs/Latches, which will be removed : <F1/REG_Files_31_894> <F1/REG_Files_31_892> <F1/REG_Files_31_886> <F1/REG_Files_31_884> <F1/REG_Files_31_879> <F1/REG_Files_31_878> <F1/REG_Files_31_876> <F1/REG_Files_31_871> <F1/REG_Files_31_870> <F1/REG_Files_31_869> <F1/REG_Files_31_868> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_163> in Unit <RegisterFile> is equivalent to the following 3 FFs/Latches, which will be removed : <F1/REG_Files_31_162> <F1/REG_Files_31_161> <F1/REG_Files_31_160> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_947> in Unit <RegisterFile> is equivalent to the following 3 FFs/Latches, which will be removed : <F1/REG_Files_31_946> <F1/REG_Files_31_945> <F1/REG_Files_31_944> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_159> in Unit <RegisterFile> is equivalent to the following 11 FFs/Latches, which will be removed : <F1/REG_Files_31_158> <F1/REG_Files_31_156> <F1/REG_Files_31_150> <F1/REG_Files_31_148> <F1/REG_Files_31_143> <F1/REG_Files_31_142> <F1/REG_Files_31_140> <F1/REG_Files_31_135> <F1/REG_Files_31_134> <F1/REG_Files_31_133> <F1/REG_Files_31_132> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_899> in Unit <RegisterFile> is equivalent to the following 3 FFs/Latches, which will be removed : <F1/REG_Files_31_898> <F1/REG_Files_31_897> <F1/REG_Files_31_896> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_955> in Unit <RegisterFile> is equivalent to the following 6 FFs/Latches, which will be removed : <F1/REG_Files_31_953> <F1/REG_Files_31_952> <F1/REG_Files_31_939> <F1/REG_Files_31_938> <F1/REG_Files_31_937> <F1/REG_Files_31_936> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_19> in Unit <RegisterFile> is equivalent to the following 3 FFs/Latches, which will be removed : <F1/REG_Files_31_18> <F1/REG_Files_31_17> <F1/REG_Files_31_16> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_223> in Unit <RegisterFile> is equivalent to the following 11 FFs/Latches, which will be removed : <F1/REG_Files_31_222> <F1/REG_Files_31_220> <F1/REG_Files_31_214> <F1/REG_Files_31_212> <F1/REG_Files_31_207> <F1/REG_Files_31_206> <F1/REG_Files_31_204> <F1/REG_Files_31_199> <F1/REG_Files_31_198> <F1/REG_Files_31_197> <F1/REG_Files_31_196> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_219> in Unit <RegisterFile> is equivalent to the following 6 FFs/Latches, which will be removed : <F1/REG_Files_31_217> <F1/REG_Files_31_216> <F1/REG_Files_31_203> <F1/REG_Files_31_202> <F1/REG_Files_31_201> <F1/REG_Files_31_200> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_31> in Unit <RegisterFile> is equivalent to the following 11 FFs/Latches, which will be removed : <F1/REG_Files_31_30> <F1/REG_Files_31_28> <F1/REG_Files_31_22> <F1/REG_Files_31_20> <F1/REG_Files_31_15> <F1/REG_Files_31_14> <F1/REG_Files_31_12> <F1/REG_Files_31_7> <F1/REG_Files_31_6> <F1/REG_Files_31_5> <F1/REG_Files_31_4> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_963> in Unit <RegisterFile> is equivalent to the following 3 FFs/Latches, which will be removed : <F1/REG_Files_31_962> <F1/REG_Files_31_961> <F1/REG_Files_31_960> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_27> in Unit <RegisterFile> is equivalent to the following 6 FFs/Latches, which will be removed : <F1/REG_Files_31_25> <F1/REG_Files_31_24> <F1/REG_Files_31_11> <F1/REG_Files_31_10> <F1/REG_Files_31_9> <F1/REG_Files_31_8> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_959> in Unit <RegisterFile> is equivalent to the following 11 FFs/Latches, which will be removed : <F1/REG_Files_31_958> <F1/REG_Files_31_956> <F1/REG_Files_31_950> <F1/REG_Files_31_948> <F1/REG_Files_31_943> <F1/REG_Files_31_942> <F1/REG_Files_31_940> <F1/REG_Files_31_935> <F1/REG_Files_31_934> <F1/REG_Files_31_933> <F1/REG_Files_31_932> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_227> in Unit <RegisterFile> is equivalent to the following 3 FFs/Latches, which will be removed : <F1/REG_Files_31_226> <F1/REG_Files_31_225> <F1/REG_Files_31_224> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_35> in Unit <RegisterFile> is equivalent to the following 3 FFs/Latches, which will be removed : <F1/REG_Files_31_34> <F1/REG_Files_31_33> <F1/REG_Files_31_32> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_179> in Unit <RegisterFile> is equivalent to the following 3 FFs/Latches, which will be removed : <F1/REG_Files_31_178> <F1/REG_Files_31_177> <F1/REG_Files_31_176> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_191> in Unit <RegisterFile> is equivalent to the following 11 FFs/Latches, which will be removed : <F1/REG_Files_31_190> <F1/REG_Files_31_188> <F1/REG_Files_31_182> <F1/REG_Files_31_180> <F1/REG_Files_31_175> <F1/REG_Files_31_174> <F1/REG_Files_31_172> <F1/REG_Files_31_167> <F1/REG_Files_31_166> <F1/REG_Files_31_165> <F1/REG_Files_31_164> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_187> in Unit <RegisterFile> is equivalent to the following 6 FFs/Latches, which will be removed : <F1/REG_Files_31_185> <F1/REG_Files_31_184> <F1/REG_Files_31_171> <F1/REG_Files_31_170> <F1/REG_Files_31_169> <F1/REG_Files_31_168> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_243> in Unit <RegisterFile> is equivalent to the following 3 FFs/Latches, which will be removed : <F1/REG_Files_31_242> <F1/REG_Files_31_241> <F1/REG_Files_31_240> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_3> in Unit <RegisterFile> is equivalent to the following 3 FFs/Latches, which will be removed : <F1/REG_Files_31_2> <F1/REG_Files_31_1> <F1/REG_Files_31_0> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_51> in Unit <RegisterFile> is equivalent to the following 3 FFs/Latches, which will be removed : <F1/REG_Files_31_50> <F1/REG_Files_31_49> <F1/REG_Files_31_48> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_195> in Unit <RegisterFile> is equivalent to the following 3 FFs/Latches, which will be removed : <F1/REG_Files_31_194> <F1/REG_Files_31_193> <F1/REG_Files_31_192> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_979> in Unit <RegisterFile> is equivalent to the following 3 FFs/Latches, which will be removed : <F1/REG_Files_31_978> <F1/REG_Files_31_977> <F1/REG_Files_31_976> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_251> in Unit <RegisterFile> is equivalent to the following 6 FFs/Latches, which will be removed : <F1/REG_Files_31_249> <F1/REG_Files_31_248> <F1/REG_Files_31_235> <F1/REG_Files_31_234> <F1/REG_Files_31_233> <F1/REG_Files_31_232> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_991> in Unit <RegisterFile> is equivalent to the following 11 FFs/Latches, which will be removed : <F1/REG_Files_31_990> <F1/REG_Files_31_988> <F1/REG_Files_31_982> <F1/REG_Files_31_980> <F1/REG_Files_31_975> <F1/REG_Files_31_974> <F1/REG_Files_31_972> <F1/REG_Files_31_967> <F1/REG_Files_31_966> <F1/REG_Files_31_965> <F1/REG_Files_31_964> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_987> in Unit <RegisterFile> is equivalent to the following 6 FFs/Latches, which will be removed : <F1/REG_Files_31_985> <F1/REG_Files_31_984> <F1/REG_Files_31_971> <F1/REG_Files_31_970> <F1/REG_Files_31_969> <F1/REG_Files_31_968> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_255> in Unit <RegisterFile> is equivalent to the following 11 FFs/Latches, which will be removed : <F1/REG_Files_31_254> <F1/REG_Files_31_252> <F1/REG_Files_31_246> <F1/REG_Files_31_244> <F1/REG_Files_31_239> <F1/REG_Files_31_238> <F1/REG_Files_31_236> <F1/REG_Files_31_231> <F1/REG_Files_31_230> <F1/REG_Files_31_229> <F1/REG_Files_31_228> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_63> in Unit <RegisterFile> is equivalent to the following 11 FFs/Latches, which will be removed : <F1/REG_Files_31_62> <F1/REG_Files_31_60> <F1/REG_Files_31_54> <F1/REG_Files_31_52> <F1/REG_Files_31_47> <F1/REG_Files_31_46> <F1/REG_Files_31_44> <F1/REG_Files_31_39> <F1/REG_Files_31_38> <F1/REG_Files_31_37> <F1/REG_Files_31_36> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_995> in Unit <RegisterFile> is equivalent to the following 3 FFs/Latches, which will be removed : <F1/REG_Files_31_994> <F1/REG_Files_31_993> <F1/REG_Files_31_992> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_59> in Unit <RegisterFile> is equivalent to the following 6 FFs/Latches, which will be removed : <F1/REG_Files_31_57> <F1/REG_Files_31_56> <F1/REG_Files_31_43> <F1/REG_Files_31_42> <F1/REG_Files_31_41> <F1/REG_Files_31_40> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_307> in Unit <RegisterFile> is equivalent to the following 3 FFs/Latches, which will be removed : <F1/REG_Files_31_306> <F1/REG_Files_31_305> <F1/REG_Files_31_304> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_1011> in Unit <RegisterFile> is equivalent to the following 3 FFs/Latches, which will be removed : <F1/REG_Files_31_1010> <F1/REG_Files_31_1009> <F1/REG_Files_31_1008> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_259> in Unit <RegisterFile> is equivalent to the following 3 FFs/Latches, which will be removed : <F1/REG_Files_31_258> <F1/REG_Files_31_257> <F1/REG_Files_31_256> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_315> in Unit <RegisterFile> is equivalent to the following 6 FFs/Latches, which will be removed : <F1/REG_Files_31_313> <F1/REG_Files_31_312> <F1/REG_Files_31_299> <F1/REG_Files_31_298> <F1/REG_Files_31_297> <F1/REG_Files_31_296> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_67> in Unit <RegisterFile> is equivalent to the following 3 FFs/Latches, which will be removed : <F1/REG_Files_31_66> <F1/REG_Files_31_65> <F1/REG_Files_31_64> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_323> in Unit <RegisterFile> is equivalent to the following 3 FFs/Latches, which will be removed : <F1/REG_Files_31_322> <F1/REG_Files_31_321> <F1/REG_Files_31_320> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_319> in Unit <RegisterFile> is equivalent to the following 11 FFs/Latches, which will be removed : <F1/REG_Files_31_318> <F1/REG_Files_31_316> <F1/REG_Files_31_310> <F1/REG_Files_31_308> <F1/REG_Files_31_303> <F1/REG_Files_31_302> <F1/REG_Files_31_300> <F1/REG_Files_31_295> <F1/REG_Files_31_294> <F1/REG_Files_31_293> <F1/REG_Files_31_292> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_275> in Unit <RegisterFile> is equivalent to the following 3 FFs/Latches, which will be removed : <F1/REG_Files_31_274> <F1/REG_Files_31_273> <F1/REG_Files_31_272> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_1023> in Unit <RegisterFile> is equivalent to the following 11 FFs/Latches, which will be removed : <F1/REG_Files_31_1022> <F1/REG_Files_31_1020> <F1/REG_Files_31_1014> <F1/REG_Files_31_1012> <F1/REG_Files_31_1007> <F1/REG_Files_31_1006> <F1/REG_Files_31_1004> <F1/REG_Files_31_999> <F1/REG_Files_31_998> <F1/REG_Files_31_997> <F1/REG_Files_31_996> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_83> in Unit <RegisterFile> is equivalent to the following 3 FFs/Latches, which will be removed : <F1/REG_Files_31_82> <F1/REG_Files_31_81> <F1/REG_Files_31_80> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_1019> in Unit <RegisterFile> is equivalent to the following 6 FFs/Latches, which will be removed : <F1/REG_Files_31_1017> <F1/REG_Files_31_1016> <F1/REG_Files_31_1003> <F1/REG_Files_31_1002> <F1/REG_Files_31_1001> <F1/REG_Files_31_1000> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_283> in Unit <RegisterFile> is equivalent to the following 6 FFs/Latches, which will be removed : <F1/REG_Files_31_281> <F1/REG_Files_31_280> <F1/REG_Files_31_267> <F1/REG_Files_31_266> <F1/REG_Files_31_265> <F1/REG_Files_31_264> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_91> in Unit <RegisterFile> is equivalent to the following 6 FFs/Latches, which will be removed : <F1/REG_Files_31_89> <F1/REG_Files_31_88> <F1/REG_Files_31_75> <F1/REG_Files_31_74> <F1/REG_Files_31_73> <F1/REG_Files_31_72> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_291> in Unit <RegisterFile> is equivalent to the following 3 FFs/Latches, which will be removed : <F1/REG_Files_31_290> <F1/REG_Files_31_289> <F1/REG_Files_31_288> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_287> in Unit <RegisterFile> is equivalent to the following 11 FFs/Latches, which will be removed : <F1/REG_Files_31_286> <F1/REG_Files_31_284> <F1/REG_Files_31_278> <F1/REG_Files_31_276> <F1/REG_Files_31_271> <F1/REG_Files_31_270> <F1/REG_Files_31_268> <F1/REG_Files_31_263> <F1/REG_Files_31_262> <F1/REG_Files_31_261> <F1/REG_Files_31_260> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_95> in Unit <RegisterFile> is equivalent to the following 11 FFs/Latches, which will be removed : <F1/REG_Files_31_94> <F1/REG_Files_31_92> <F1/REG_Files_31_86> <F1/REG_Files_31_84> <F1/REG_Files_31_79> <F1/REG_Files_31_78> <F1/REG_Files_31_76> <F1/REG_Files_31_71> <F1/REG_Files_31_70> <F1/REG_Files_31_69> <F1/REG_Files_31_68> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_339> in Unit <RegisterFile> is equivalent to the following 3 FFs/Latches, which will be removed : <F1/REG_Files_31_338> <F1/REG_Files_31_337> <F1/REG_Files_31_336> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_351> in Unit <RegisterFile> is equivalent to the following 11 FFs/Latches, which will be removed : <F1/REG_Files_31_350> <F1/REG_Files_31_348> <F1/REG_Files_31_342> <F1/REG_Files_31_340> <F1/REG_Files_31_335> <F1/REG_Files_31_334> <F1/REG_Files_31_332> <F1/REG_Files_31_327> <F1/REG_Files_31_326> <F1/REG_Files_31_325> <F1/REG_Files_31_324> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_347> in Unit <RegisterFile> is equivalent to the following 6 FFs/Latches, which will be removed : <F1/REG_Files_31_345> <F1/REG_Files_31_344> <F1/REG_Files_31_331> <F1/REG_Files_31_330> <F1/REG_Files_31_329> <F1/REG_Files_31_328> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_99> in Unit <RegisterFile> is equivalent to the following 3 FFs/Latches, which will be removed : <F1/REG_Files_31_98> <F1/REG_Files_31_97> <F1/REG_Files_31_96> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_403> in Unit <RegisterFile> is equivalent to the following 3 FFs/Latches, which will be removed : <F1/REG_Files_31_402> <F1/REG_Files_31_401> <F1/REG_Files_31_400> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_355> in Unit <RegisterFile> is equivalent to the following 3 FFs/Latches, which will be removed : <F1/REG_Files_31_354> <F1/REG_Files_31_353> <F1/REG_Files_31_352> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_411> in Unit <RegisterFile> is equivalent to the following 6 FFs/Latches, which will be removed : <F1/REG_Files_31_409> <F1/REG_Files_31_408> <F1/REG_Files_31_395> <F1/REG_Files_31_394> <F1/REG_Files_31_393> <F1/REG_Files_31_392> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_415> in Unit <RegisterFile> is equivalent to the following 11 FFs/Latches, which will be removed : <F1/REG_Files_31_414> <F1/REG_Files_31_412> <F1/REG_Files_31_406> <F1/REG_Files_31_404> <F1/REG_Files_31_399> <F1/REG_Files_31_398> <F1/REG_Files_31_396> <F1/REG_Files_31_391> <F1/REG_Files_31_390> <F1/REG_Files_31_389> <F1/REG_Files_31_388> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_371> in Unit <RegisterFile> is equivalent to the following 3 FFs/Latches, which will be removed : <F1/REG_Files_31_370> <F1/REG_Files_31_369> <F1/REG_Files_31_368> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_419> in Unit <RegisterFile> is equivalent to the following 3 FFs/Latches, which will be removed : <F1/REG_Files_31_418> <F1/REG_Files_31_417> <F1/REG_Files_31_416> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_383> in Unit <RegisterFile> is equivalent to the following 11 FFs/Latches, which will be removed : <F1/REG_Files_31_382> <F1/REG_Files_31_380> <F1/REG_Files_31_374> <F1/REG_Files_31_372> <F1/REG_Files_31_367> <F1/REG_Files_31_366> <F1/REG_Files_31_364> <F1/REG_Files_31_359> <F1/REG_Files_31_358> <F1/REG_Files_31_357> <F1/REG_Files_31_356> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_379> in Unit <RegisterFile> is equivalent to the following 6 FFs/Latches, which will be removed : <F1/REG_Files_31_377> <F1/REG_Files_31_376> <F1/REG_Files_31_363> <F1/REG_Files_31_362> <F1/REG_Files_31_361> <F1/REG_Files_31_360> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_435> in Unit <RegisterFile> is equivalent to the following 3 FFs/Latches, which will be removed : <F1/REG_Files_31_434> <F1/REG_Files_31_433> <F1/REG_Files_31_432> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_387> in Unit <RegisterFile> is equivalent to the following 3 FFs/Latches, which will be removed : <F1/REG_Files_31_386> <F1/REG_Files_31_385> <F1/REG_Files_31_384> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_443> in Unit <RegisterFile> is equivalent to the following 6 FFs/Latches, which will be removed : <F1/REG_Files_31_441> <F1/REG_Files_31_440> <F1/REG_Files_31_427> <F1/REG_Files_31_426> <F1/REG_Files_31_425> <F1/REG_Files_31_424> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_451> in Unit <RegisterFile> is equivalent to the following 3 FFs/Latches, which will be removed : <F1/REG_Files_31_450> <F1/REG_Files_31_449> <F1/REG_Files_31_448> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_447> in Unit <RegisterFile> is equivalent to the following 11 FFs/Latches, which will be removed : <F1/REG_Files_31_446> <F1/REG_Files_31_444> <F1/REG_Files_31_438> <F1/REG_Files_31_436> <F1/REG_Files_31_431> <F1/REG_Files_31_430> <F1/REG_Files_31_428> <F1/REG_Files_31_423> <F1/REG_Files_31_422> <F1/REG_Files_31_421> <F1/REG_Files_31_420> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_511> in Unit <RegisterFile> is equivalent to the following 11 FFs/Latches, which will be removed : <F1/REG_Files_31_510> <F1/REG_Files_31_508> <F1/REG_Files_31_502> <F1/REG_Files_31_500> <F1/REG_Files_31_495> <F1/REG_Files_31_494> <F1/REG_Files_31_492> <F1/REG_Files_31_487> <F1/REG_Files_31_486> <F1/REG_Files_31_485> <F1/REG_Files_31_484> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_507> in Unit <RegisterFile> is equivalent to the following 6 FFs/Latches, which will be removed : <F1/REG_Files_31_505> <F1/REG_Files_31_504> <F1/REG_Files_31_491> <F1/REG_Files_31_490> <F1/REG_Files_31_489> <F1/REG_Files_31_488> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_515> in Unit <RegisterFile> is equivalent to the following 3 FFs/Latches, which will be removed : <F1/REG_Files_31_514> <F1/REG_Files_31_513> <F1/REG_Files_31_512> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_467> in Unit <RegisterFile> is equivalent to the following 3 FFs/Latches, which will be removed : <F1/REG_Files_31_466> <F1/REG_Files_31_465> <F1/REG_Files_31_464> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_475> in Unit <RegisterFile> is equivalent to the following 6 FFs/Latches, which will be removed : <F1/REG_Files_31_473> <F1/REG_Files_31_472> <F1/REG_Files_31_459> <F1/REG_Files_31_458> <F1/REG_Files_31_457> <F1/REG_Files_31_456> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_531> in Unit <RegisterFile> is equivalent to the following 3 FFs/Latches, which will be removed : <F1/REG_Files_31_530> <F1/REG_Files_31_529> <F1/REG_Files_31_528> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_483> in Unit <RegisterFile> is equivalent to the following 3 FFs/Latches, which will be removed : <F1/REG_Files_31_482> <F1/REG_Files_31_481> <F1/REG_Files_31_480> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_479> in Unit <RegisterFile> is equivalent to the following 11 FFs/Latches, which will be removed : <F1/REG_Files_31_478> <F1/REG_Files_31_476> <F1/REG_Files_31_470> <F1/REG_Files_31_468> <F1/REG_Files_31_463> <F1/REG_Files_31_462> <F1/REG_Files_31_460> <F1/REG_Files_31_455> <F1/REG_Files_31_454> <F1/REG_Files_31_453> <F1/REG_Files_31_452> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_543> in Unit <RegisterFile> is equivalent to the following 11 FFs/Latches, which will be removed : <F1/REG_Files_31_542> <F1/REG_Files_31_540> <F1/REG_Files_31_534> <F1/REG_Files_31_532> <F1/REG_Files_31_527> <F1/REG_Files_31_526> <F1/REG_Files_31_524> <F1/REG_Files_31_519> <F1/REG_Files_31_518> <F1/REG_Files_31_517> <F1/REG_Files_31_516> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_539> in Unit <RegisterFile> is equivalent to the following 6 FFs/Latches, which will be removed : <F1/REG_Files_31_537> <F1/REG_Files_31_536> <F1/REG_Files_31_523> <F1/REG_Files_31_522> <F1/REG_Files_31_521> <F1/REG_Files_31_520> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_547> in Unit <RegisterFile> is equivalent to the following 3 FFs/Latches, which will be removed : <F1/REG_Files_31_546> <F1/REG_Files_31_545> <F1/REG_Files_31_544> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_603> in Unit <RegisterFile> is equivalent to the following 6 FFs/Latches, which will be removed : <F1/REG_Files_31_601> <F1/REG_Files_31_600> <F1/REG_Files_31_587> <F1/REG_Files_31_586> <F1/REG_Files_31_585> <F1/REG_Files_31_584> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_499> in Unit <RegisterFile> is equivalent to the following 3 FFs/Latches, which will be removed : <F1/REG_Files_31_498> <F1/REG_Files_31_497> <F1/REG_Files_31_496> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_611> in Unit <RegisterFile> is equivalent to the following 3 FFs/Latches, which will be removed : <F1/REG_Files_31_610> <F1/REG_Files_31_609> <F1/REG_Files_31_608> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_607> in Unit <RegisterFile> is equivalent to the following 11 FFs/Latches, which will be removed : <F1/REG_Files_31_606> <F1/REG_Files_31_604> <F1/REG_Files_31_598> <F1/REG_Files_31_596> <F1/REG_Files_31_591> <F1/REG_Files_31_590> <F1/REG_Files_31_588> <F1/REG_Files_31_583> <F1/REG_Files_31_582> <F1/REG_Files_31_581> <F1/REG_Files_31_580> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_563> in Unit <RegisterFile> is equivalent to the following 3 FFs/Latches, which will be removed : <F1/REG_Files_31_562> <F1/REG_Files_31_561> <F1/REG_Files_31_560> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_571> in Unit <RegisterFile> is equivalent to the following 6 FFs/Latches, which will be removed : <F1/REG_Files_31_569> <F1/REG_Files_31_568> <F1/REG_Files_31_555> <F1/REG_Files_31_554> <F1/REG_Files_31_553> <F1/REG_Files_31_552> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_575> in Unit <RegisterFile> is equivalent to the following 11 FFs/Latches, which will be removed : <F1/REG_Files_31_574> <F1/REG_Files_31_572> <F1/REG_Files_31_566> <F1/REG_Files_31_564> <F1/REG_Files_31_559> <F1/REG_Files_31_558> <F1/REG_Files_31_556> <F1/REG_Files_31_551> <F1/REG_Files_31_550> <F1/REG_Files_31_549> <F1/REG_Files_31_548> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_627> in Unit <RegisterFile> is equivalent to the following 3 FFs/Latches, which will be removed : <F1/REG_Files_31_626> <F1/REG_Files_31_625> <F1/REG_Files_31_624> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_579> in Unit <RegisterFile> is equivalent to the following 3 FFs/Latches, which will be removed : <F1/REG_Files_31_578> <F1/REG_Files_31_577> <F1/REG_Files_31_576> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_635> in Unit <RegisterFile> is equivalent to the following 6 FFs/Latches, which will be removed : <F1/REG_Files_31_633> <F1/REG_Files_31_632> <F1/REG_Files_31_619> <F1/REG_Files_31_618> <F1/REG_Files_31_617> <F1/REG_Files_31_616> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_643> in Unit <RegisterFile> is equivalent to the following 3 FFs/Latches, which will be removed : <F1/REG_Files_31_642> <F1/REG_Files_31_641> <F1/REG_Files_31_640> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_639> in Unit <RegisterFile> is equivalent to the following 11 FFs/Latches, which will be removed : <F1/REG_Files_31_638> <F1/REG_Files_31_636> <F1/REG_Files_31_630> <F1/REG_Files_31_628> <F1/REG_Files_31_623> <F1/REG_Files_31_622> <F1/REG_Files_31_620> <F1/REG_Files_31_615> <F1/REG_Files_31_614> <F1/REG_Files_31_613> <F1/REG_Files_31_612> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_595> in Unit <RegisterFile> is equivalent to the following 3 FFs/Latches, which will be removed : <F1/REG_Files_31_594> <F1/REG_Files_31_593> <F1/REG_Files_31_592> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_703> in Unit <RegisterFile> is equivalent to the following 11 FFs/Latches, which will be removed : <F1/REG_Files_31_702> <F1/REG_Files_31_700> <F1/REG_Files_31_694> <F1/REG_Files_31_692> <F1/REG_Files_31_687> <F1/REG_Files_31_686> <F1/REG_Files_31_684> <F1/REG_Files_31_679> <F1/REG_Files_31_678> <F1/REG_Files_31_677> <F1/REG_Files_31_676> 
+INFO:Xst:2261 - The FF/Latch <F1/REG_Files_31_707> in Unit <RegisterFile> is equivalent to the following 3 FFs/Latches, which will be removed : <F1/REG_Files_31_706> <F1/REG_Files_31_705> <F1/REG_Files_31_704> 
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block RegisterFile, actual ratio is 8.
+Latch R_Addr_A_0 has been replicated 3 time(s)
+INFO:Xst:1842 - HDL ADVISOR - Latch R_Addr_A_0 connected to a primary input has been replicated
+Latch R_Addr_A_1 has been replicated 3 time(s)
+INFO:Xst:1842 - HDL ADVISOR - Latch R_Addr_A_1 connected to a primary input has been replicated
+Latch R_Addr_B_0 has been replicated 3 time(s)
+INFO:Xst:1842 - HDL ADVISOR - Latch R_Addr_B_0 connected to a primary input has been replicated
+Latch R_Addr_B_1 has been replicated 3 time(s)
+INFO:Xst:1842 - HDL ADVISOR - Latch R_Addr_B_1 connected to a primary input has been replicated
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 288
+ Flip-Flops                                            : 288
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : RegisterFile.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 571
+#      INV                         : 1
+#      LUT2                        : 2
+#      LUT3                        : 292
+#      LUT4                        : 4
+#      LUT5                        : 38
+#      LUT6                        : 204
+#      MUXF7                       : 30
+# FlipFlops/Latches                : 322
+#      FDCE                        : 288
+#      LD                          : 4
+#      LD_1                        : 8
+#      LDE_1                       : 22
+# Clock Buffers                    : 2
+#      BUFG                        : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 18
+#      IBUF                        : 10
+#      OBUF                        : 8
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx16csg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:             322  out of  18224     1%  
+ Number of Slice LUTs:                  541  out of   9112     5%  
+    Number used as Logic:               541  out of   9112     5%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    565
+   Number with an unused Flip Flop:     243  out of    565    43%  
+   Number with an unused LUT:            24  out of    565     4%  
+   Number of fully used LUT-FF pairs:   298  out of    565    52%  
+   Number of unique control sets:         4
+
+IO Utilization: 
+ Number of IOs:                          19
+ Number of bonded IOBs:                  19  out of    232     8%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                2  out of     16    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+Write_Reg                          | IBUF+BUFG              | 34    |
+Clk                                | BUFGP                  | 288   |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 5.058ns (Maximum Frequency: 197.693MHz)
+   Minimum input arrival time before clock: 4.540ns
+   Maximum output required time after clock: 3.648ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Write_Reg'
+  Clock period: 5.058ns (frequency: 197.693MHz)
+  Total number of paths / destination ports: 958 / 8
+-------------------------------------------------------------------------
+Delay:               5.058ns (Levels of Logic = 5)
+  Source:            R_Addr_A_0_1 (LATCH)
+  Destination:       LED_0 (LATCH)
+  Source Clock:      Write_Reg rising
+  Destination Clock: Write_Reg rising
+
+  Data Path: R_Addr_A_0_1 to LED_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDE_1:G->Q           19   0.498   1.176  R_Addr_A_0_1 (R_Addr_A_0_1)
+     LUT6:I4->O            2   0.203   0.864  F1/Mmux_R_Data_A_822 (F1/Mmux_R_Data_A_822)
+     LUT6:I2->O            2   0.203   0.721  F1/Mmux_R_Data_A_37 (F1/Mmux_R_Data_A_310)
+     LUT5:I3->O            1   0.203   0.808  Mmux_Opt[1]_Opt[1]_mux_4_OUT<0>_3_SW1 (N7)
+     LUT5:I2->O            1   0.205   0.000  Mmux_Opt[1]_Opt[1]_mux_4_OUT<0>_3 (Mmux_Opt[1]_Opt[1]_mux_4_OUT<0>_3)
+     MUXF7:I1->O           1   0.140   0.000  Mmux_Opt[1]_Opt[1]_mux_4_OUT<0>_2_f7 (Opt[1]_Opt[1]_mux_4_OUT<0>)
+     LD_1:D                    0.037          LED_0
+    ----------------------------------------
+    Total                      5.058ns (1.489ns logic, 3.569ns route)
+                                       (29.4% logic, 70.6% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Clk'
+  Clock period: 1.507ns (frequency: 663.460MHz)
+  Total number of paths / destination ports: 288 / 288
+-------------------------------------------------------------------------
+Delay:               1.507ns (Levels of Logic = 1)
+  Source:            F1/REG_Files_31_1023 (FF)
+  Destination:       F1/REG_Files_31_1023 (FF)
+  Source Clock:      Clk rising
+  Destination Clock: Clk rising
+
+  Data Path: F1/REG_Files_31_1023 to F1/REG_Files_31_1023
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             3   0.447   0.755  F1/REG_Files_31_1023 (F1/REG_Files_31_1023)
+     LUT3:I1->O            1   0.203   0.000  F1/Mmux_REG_Files[0][31]_W_Data[31]_mux_32_OUT251 (F1/REG_Files[0][31]_W_Data[31]_mux_32_OUT<31>)
+     FDCE:D                    0.102          F1/REG_Files_31_1023
+    ----------------------------------------
+    Total                      1.507ns (0.752ns logic, 0.755ns route)
+                                       (49.9% logic, 50.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'Write_Reg'
+  Total number of paths / destination ports: 90 / 56
+-------------------------------------------------------------------------
+Offset:              3.987ns (Levels of Logic = 4)
+  Source:            Opt<1> (PAD)
+  Destination:       LED_0 (LATCH)
+  Destination Clock: Write_Reg rising
+
+  Data Path: Opt<1> to LED_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            17   1.222   1.372  Opt_1_IBUF (Opt_1_IBUF)
+     LUT5:I0->O            1   0.203   0.808  Mmux_Opt[1]_Opt[1]_mux_4_OUT<0>_3_SW1 (N7)
+     LUT5:I2->O            1   0.205   0.000  Mmux_Opt[1]_Opt[1]_mux_4_OUT<0>_3 (Mmux_Opt[1]_Opt[1]_mux_4_OUT<0>_3)
+     MUXF7:I1->O           1   0.140   0.000  Mmux_Opt[1]_Opt[1]_mux_4_OUT<0>_2_f7 (Opt[1]_Opt[1]_mux_4_OUT<0>)
+     LD_1:D                    0.037          LED_0
+    ----------------------------------------
+    Total                      3.987ns (1.807ns logic, 2.180ns route)
+                                       (45.3% logic, 54.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'Clk'
+  Total number of paths / destination ports: 2016 / 864
+-------------------------------------------------------------------------
+Offset:              4.540ns (Levels of Logic = 3)
+  Source:            Addr<0> (PAD)
+  Destination:       F1/REG_Files_31_1023 (FF)
+  Destination Clock: Clk rising
+
+  Data Path: Addr<0> to F1/REG_Files_31_1023
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            40   1.222   1.750  Addr_0_IBUF (Addr_0_IBUF)
+     LUT5:I0->O            9   0.203   1.058  F1/W_Addr[4]_Decoder_0_OUT<4><4>1 (F1/W_Addr[4]_Decoder_0_OUT<4>)
+     LUT3:I0->O            1   0.205   0.000  F1/Mmux_REG_Files[4][31]_W_Data[31]_mux_28_OUT51 (F1/REG_Files[4][31]_W_Data[31]_mux_28_OUT<13>)
+     FDCE:D                    0.102          F1/REG_Files_31_877
+    ----------------------------------------
+    Total                      4.540ns (1.732ns logic, 2.808ns route)
+                                       (38.2% logic, 61.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Write_Reg'
+  Total number of paths / destination ports: 8 / 8
+-------------------------------------------------------------------------
+Offset:              3.648ns (Levels of Logic = 1)
+  Source:            LED_7 (LATCH)
+  Destination:       LED<7> (PAD)
+  Source Clock:      Write_Reg rising
+
+  Data Path: LED_7 to LED<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD_1:G->Q             1   0.498   0.579  LED_7 (LED_7)
+     OBUF:I->O                 2.571          LED_7_OBUF (LED<7>)
+    ----------------------------------------
+    Total                      3.648ns (3.069ns logic, 0.579ns route)
+                                       (84.1% logic, 15.9% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock Clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+Clk            |    1.507|         |         |         |
+Write_Reg      |         |    2.823|         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock Write_Reg
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+Clk            |    4.973|         |         |         |
+Write_Reg      |    5.058|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 8.73 secs
+ 
+--> 
+
+Total memory usage is 4513020 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   30 (   0 filtered)
+Number of infos    :  132 (   0 filtered)
+
