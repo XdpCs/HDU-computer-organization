@@ -1,0 +1,4 @@
+verilog work "../Third_experiment/Third_experiment_third.v"
+verilog work "../Third_experiment/Third_experiment_second.v"
+verilog work "../Third_experiment/Third_experiment_first.v"
+verilog work "../Third_experiment/ALU.v"
