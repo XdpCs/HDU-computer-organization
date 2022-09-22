@@ -1,0 +1,28 @@
+Command line:
+   Fourth_experiment_test_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  54450
+
+Tue Dec 22 21:44:36 2020
+
+
+ Elaboration Time: 0.171875 sec
+
+ Current Memory Usage: 5816.5 Meg
+
+ Total Signals          : 31
+ Total Nets             : 138
+ Total Signal Drivers   : 17
+ Total Blocks           : 4
+ Total Primitive Blocks : 2
+ Total Processes        : 23
+ Total Traceable Variables  : 30
+ Total Scalar Nets and Variables : 1335
+
+ Total Simulation Time: 0.171875 sec
+
+ Current Memory Usage: 5187.32 Meg
+
+Tue Dec 22 21:48:45 2020
+
