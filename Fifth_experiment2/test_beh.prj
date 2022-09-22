@@ -1,0 +1,4 @@
+verilog work "RAMA.v"
+verilog work "RAM.v"
+verilog work "test.v"
+verilog work "E:/Xlinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

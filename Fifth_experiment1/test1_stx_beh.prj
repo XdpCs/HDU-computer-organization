@@ -1,0 +1,3 @@
+verilog isim_temp "RAMA.v"
+verilog isim_temp "test1.v"
+verilog isim_temp "E:/Xlinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"
