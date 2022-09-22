@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<DeviceUsageSummary rev="1">
+<DesignStatistics TimeStamp="Thu Dec 17 00:43:30 2020"><group name="MiscellaneousStatistics">
+<item name="AGG_BONDED_IO" rev="1">
+<attrib name="value" value="19"/></item>
+<item name="AGG_IO" rev="1">
+<attrib name="value" value="19"/></item>
+<item name="AGG_SLICE" rev="1">
+<attrib name="value" value="132"/></item>
+<item name="NUM_BONDED_IOB" rev="1">
+<attrib name="value" value="19"/></item>
+<item name="NUM_BSFULL" rev="1">
+<attrib name="value" value="164"/></item>
+<item name="NUM_BSLUTONLY" rev="1">
+<attrib name="value" value="216"/></item>
+<item name="NUM_BSREGONLY" rev="1">
+<attrib name="value" value="14"/></item>
+<item name="NUM_BSUSED" rev="1">
+<attrib name="value" value="394"/></item>
+<item name="NUM_BUFG" rev="1">
+<attrib name="value" value="2"/></item>
+<item name="NUM_LOGIC_O5ANDO6" rev="1">
+<attrib name="value" value="161"/></item>
+<item name="NUM_LOGIC_O6ONLY" rev="1">
+<attrib name="value" value="219"/></item>
+<item name="NUM_SLICEL" rev="1">
+<attrib name="value" value="30"/></item>
+<item name="NUM_SLICEX" rev="1">
+<attrib name="value" value="102"/></item>
+<item name="NUM_SLICE_CONTROLSET" rev="1">
+<attrib name="value" value="5"/></item>
+<item name="NUM_SLICE_CYINIT" rev="1">
+<attrib name="value" value="541"/></item>
+<item name="NUM_SLICE_F7MUX" rev="1">
+<attrib name="value" value="30"/></item>
+<item name="NUM_SLICE_FF" rev="1">
+<attrib name="value" value="288"/></item>
+<item name="NUM_SLICE_LATCH" rev="1">
+<attrib name="value" value="34"/></item>
+<item name="NUM_SLICE_UNUSEDCTRL" rev="1">
+<attrib name="value" value="74"/></item>
+<item name="NUM_UNUSABLE_FF_BELS" rev="1">
+<attrib name="value" value="14"/></item>
+</group>
+</DesignStatistics>
+<CmdHistory>
+</CmdHistory>
+</DeviceUsageSummary>
