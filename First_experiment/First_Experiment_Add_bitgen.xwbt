@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=F:\Desktop\FPGA\First_experiment\First_Experiment_Add.ncd
+OUTFILE=F:\Desktop\FPGA\First_experiment\First_Experiment_Add.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=F:\Desktop\FPGA\First_experiment
+LICENSE=WebPack
+USER_INFO=__0_0_0
