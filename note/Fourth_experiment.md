@@ -135,3 +135,8 @@ endmodule
 ## 代码地址
 
 [代码地址](../Fourth_experiment)
+
+## 链接
+
+* 上一页：[实验3-多功能ALU设计实验](./Third_experiment.md)
+* 下一页：[实验5-存储器设计实验](./Fifth_experiment.md)
