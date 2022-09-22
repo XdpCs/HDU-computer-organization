@@ -86,4 +86,4 @@ add $31,$11,$26;	#$31 = 9000_6FF1
 ## 链接
 
 * 上一页：[实验5-存储器设计实验](./Fifth_experiment.md)
-* 下一页：[实验7-取指令与指令译码实验](./Second_experiment.md)
+* 下一页：[实验7-取指令与指令译码实验](./Seventh_experiment.md)
