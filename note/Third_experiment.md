@@ -142,3 +142,8 @@ endmodule
 ## 代码地址
 
 [代码地址](../Third_experiment)
+
+## 链接
+
+* 上一页：[实验2-超前进位加法器设计实验](./Second_experiment.md)
+* 下一页：[实验4-寄存器堆设计实验](./Fourth_experiment.md)
