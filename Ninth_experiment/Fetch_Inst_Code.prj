@@ -1,0 +1,3 @@
+verilog work "ipcore_dir/Inst_Rom.v"
+verilog work "PC.v"
+verilog work "Fetch_Inst_Code.v"
