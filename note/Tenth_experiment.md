@@ -332,3 +332,7 @@ Loop1:lw $t3,0($t0);
 ## 代码地址
 
 [代码地址](../Tenth_experiment)
+
+## 链接
+
+* 上一页：[实验9-实现R-I型指令的CPU设计实验](./Ninth_experiment.md)

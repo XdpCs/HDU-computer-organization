@@ -288,3 +288,8 @@ endmodule
 ## 代码地址
 
 [代码地址](../Ninth_experiment)
+
+## 链接
+
+* 上一页：[实验8-实现R型指令的CPU设计实验](./Eighth_experiment.md)
+* 下一页：[实验10-实现R-I-J型指令的CPU设计实验](./Tenth_experiment.md)
