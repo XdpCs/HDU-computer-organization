@@ -2,11 +2,11 @@
 
 ## 实验内容
 
-1.	学习ISE工具软件的使用及仿真方法
-2.	学习FPGA程序的下载方式
-3.	熟悉Nexys3实验板
-4.	掌握运用Verilog HDL 进行结构描述与建模的技术和方法
-5.	掌握二进制全加器的原理与设计
+1. 学习ISE工具软件的使用及仿真方法
+2. 学习FPGA程序的下载方式
+3. 熟悉Nexys3实验板
+4. 掌握运用Verilog HDL 进行结构描述与建模的技术和方法
+5. 掌握二进制全加器的原理与设计
 
 ## 解决方法
 
@@ -15,6 +15,7 @@
 3. 代码展示：
 
 **顶层模块：**
+
 ```verilog
 module First_Experiment_Add(A,B,Ci,F,C);
 input A,B,Ci;
@@ -26,6 +27,7 @@ and	AN1(W,Q,Ci),
 or		OR1(C,W,E);
 endmodule
 ```
+
 **测试模块：**
 
 ```verilog
@@ -63,5 +65,11 @@ module test;
 	end
 endmodule
 ```
+
 ## 代码地址
+
 [代码地址](../First_experiment)
+
+## 链接
+
+* 下一页：[实验2-超前进位加法器设计实验](./Second_experiment.md)

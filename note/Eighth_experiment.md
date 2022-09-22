@@ -213,3 +213,8 @@ endmodule
 ## 代码地址
 
 [代码地址](../Eighth_experiment)
+
+## 链接
+
+* 上一页：[实验7-取指令与指令译码实验](./Seventh_experiment.md)
+* 下一页：[实验9-实现R-I型指令的CPU设计实验](./Ninth_experiment.md)

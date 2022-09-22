@@ -130,3 +130,8 @@ memory_initialization_vector=00000827 0001102b 00421820 00622020 00832820 00a330
 ## 代码地址
 
 [代码地址](../Seventh_experiment)
+
+## 链接
+
+* 上一页：[实验6-MIPS汇编器与模拟器实验](./Sixth_experiment.md)
+* 下一页：[实验8-实现R型指令的CPU设计实验](./Eighth_experiment.md)
