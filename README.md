@@ -12,3 +12,5 @@
 * [实验8-实现R型指令的CPU设计实验](./note/Eighth_experiment.md)
 * [实验9-实现R-I型指令的CPU设计实验](./note/Ninth_experiment.md)
 * [实验10-实现R-I-J型指令的CPU设计实验](./note/Tenth_experiment.md)
+
+## 创作不易，给个🌟吧
