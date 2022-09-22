@@ -1,0 +1,17 @@
+
+
+
+// Instantiate the module
+OP_Func instance_name (
+    .op_code(op_code), 
+    .funct(funct), 
+    .Write_Reg(Write_Reg), 
+    .ALU_OP(ALU_OP), 
+    .w_r_s(w_r_s), 
+    .imm_s(imm_s), 
+    .rt_imm_s(rt_imm_s), 
+    .Mem_Write(Mem_Write), 
+    .wr_data_s(wr_data_s)
+    );
+
+
