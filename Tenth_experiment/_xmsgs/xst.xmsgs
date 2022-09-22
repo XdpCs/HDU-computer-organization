@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="error" file="HDLCompiler" num="69" delta="new" >"F:\Desktop\FPGA\tenth_experiment\OP_Func.v" Line 38: &lt;<arg fmt="%s" index="1">rd</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="new" >"F:\Desktop\FPGA\tenth_experiment\OP_Func.v" Line 39: &lt;<arg fmt="%s" index="1">rt</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="new" >"F:\Desktop\FPGA\tenth_experiment\OP_Func.v" Line 40: &lt;<arg fmt="%s" index="1">rs</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="new" >"F:\Desktop\FPGA\tenth_experiment\OP_Func.v" Line 45: &lt;<arg fmt="%s" index="1">inst</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="new" >"F:\Desktop\FPGA\tenth_experiment\OP_Func.v" Line 59: &lt;<arg fmt="%s" index="1">inst</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="new" >"F:\Desktop\FPGA\tenth_experiment\OP_Func.v" Line 61: &lt;<arg fmt="%s" index="1">imm</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="new" >"F:\Desktop\FPGA\tenth_experiment\OP_Func.v" Line 62: &lt;<arg fmt="%s" index="1">rt</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="new" >"F:\Desktop\FPGA\tenth_experiment\OP_Func.v" Line 63: &lt;<arg fmt="%s" index="1">rs</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="new" >"F:\Desktop\FPGA\tenth_experiment\OP_Func.v" Line 70: &lt;<arg fmt="%s" index="1">inst</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="new" >"F:\Desktop\FPGA\tenth_experiment\OP_Func.v" Line 80: &lt;<arg fmt="%s" index="1">inst</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="new" >"F:\Desktop\FPGA\tenth_experiment\OP_Func.v" Line 82: &lt;<arg fmt="%s" index="1">imm</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="new" >"F:\Desktop\FPGA\tenth_experiment\OP_Func.v" Line 83: &lt;<arg fmt="%s" index="1">rt</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="new" >"F:\Desktop\FPGA\tenth_experiment\OP_Func.v" Line 84: &lt;<arg fmt="%s" index="1">rs</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="new" >"F:\Desktop\FPGA\tenth_experiment\OP_Func.v" Line 88: &lt;<arg fmt="%s" index="1">inst</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="new" >"F:\Desktop\FPGA\tenth_experiment\OP_Func.v" Line 95: &lt;<arg fmt="%s" index="1">inst</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="new" >"F:\Desktop\FPGA\tenth_experiment\OP_Func.v" Line 97: &lt;<arg fmt="%s" index="1">inst</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="new" >"F:\Desktop\FPGA\tenth_experiment\OP_Func.v" Line 112: &lt;<arg fmt="%s" index="1">inst</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="new" >"F:\Desktop\FPGA\tenth_experiment\OP_Func.v" Line 114: &lt;<arg fmt="%s" index="1">inst</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="598" delta="new" >"F:\Desktop\FPGA\tenth_experiment\OP_Func.v" Line 21: Module &lt;<arg fmt="%s" index="1">OP_Func</arg>&gt; ignored due to previous errors.
+</msg>
+
+</messages>
+

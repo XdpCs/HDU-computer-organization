@@ -1,0 +1,5 @@
+verilog work "ipcore_dir/Inst_Rom.v"
+verilog work "PC.v"
+verilog work "Fetch_Inst_Code.v"
+verilog work "test.v"
+verilog work "E:/Xlinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"
