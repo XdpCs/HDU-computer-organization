@@ -1,0 +1,5 @@
+verilog isim_temp "Third_experiment_third.v"
+verilog isim_temp "Third_experiment_second.v"
+verilog isim_temp "Third_experiment_first.v"
+verilog isim_temp "ALU.v"
+verilog isim_temp "E:/Xlinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"
