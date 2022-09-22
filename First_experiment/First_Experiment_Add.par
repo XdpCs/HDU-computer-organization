@@ -1,0 +1,149 @@
+Release 14.7 par P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+LAPTOP-POMB0CNS::  Wed Dec 09 00:40:17 2020
+
+par -w -intstyle ise -ol high -mt off First_Experiment_Add_map.ncd
+First_Experiment_Add.ncd First_Experiment_Add.pcf 
+
+
+Constraints file: First_Experiment_Add.pcf.
+Loading device for application Rf_Device from file '6slx16.nph' in environment E:\Xlinx\14.7\ISE_DS\ISE\.
+   "First_Experiment_Add" is an NCD, version 3.2, device xc6slx16, package csg324, speed -3
+
+Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000 Celsius)
+Initializing voltage to 1.140 Volts. (default - Range: 1.140 to 1.260 Volts)
+
+INFO:Par:282 - No user timing constraints were detected or you have set the option to ignore timing constraints ("par
+   -x"). Place and Route will run in "Performance Evaluation Mode" to automatically improve the performance of all
+   internal clocks in this design. Because there are not defined timing requirements, a timing score will not be
+   reported in the PAR report in this mode. The PAR timing summary will list the performance achieved for each clock.
+   Note: For the fastest runtime, set the effort level to "std".  For best performance, set the effort level to "high".
+
+Device speed data version:  "PRODUCTION 1.23 2013-10-13".
+
+
+
+Device Utilization Summary:
+
+Slice Logic Utilization:
+  Number of Slice Registers:                     0 out of  18,224    0%
+  Number of Slice LUTs:                          1 out of   9,112    1%
+    Number used as logic:                        1 out of   9,112    1%
+      Number using O6 output only:               0
+      Number using O5 output only:               0
+      Number using O5 and O6:                    1
+      Number used as ROM:                        0
+    Number used as Memory:                       0 out of   2,176    0%
+
+Slice Logic Distribution:
+  Number of occupied Slices:                     1 out of   2,278    1%
+  Number of MUXCYs used:                         0 out of   4,556    0%
+  Number of LUT Flip Flop pairs used:            1
+    Number with an unused Flip Flop:             1 out of       1  100%
+    Number with an unused LUT:                   0 out of       1    0%
+    Number of fully used LUT-FF pairs:           0 out of       1    0%
+    Number of slice register sites lost
+      to control set restrictions:               0 out of  18,224    0%
+
+  A LUT Flip Flop pair for this architecture represents one LUT paired with
+  one Flip Flop within a slice.  A control set is a unique combination of
+  clock, reset, set, and enable signals for a registered element.
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+
+IO Utilization:
+  Number of bonded IOBs:                         5 out of     232    2%
+    Number of LOCed IOBs:                        5 out of       5  100%
+
+Specific Feature Utilization:
+  Number of RAMB16BWERs:                         0 out of      32    0%
+  Number of RAMB8BWERs:                          0 out of      64    0%
+  Number of BUFIO2/BUFIO2_2CLKs:                 0 out of      32    0%
+  Number of BUFIO2FB/BUFIO2FB_2CLKs:             0 out of      32    0%
+  Number of BUFG/BUFGMUXs:                       0 out of      16    0%
+  Number of DCM/DCM_CLKGENs:                     0 out of       4    0%
+  Number of ILOGIC2/ISERDES2s:                   0 out of     248    0%
+  Number of IODELAY2/IODRP2/IODRP2_MCBs:         0 out of     248    0%
+  Number of OLOGIC2/OSERDES2s:                   0 out of     248    0%
+  Number of BSCANs:                              0 out of       4    0%
+  Number of BUFHs:                               0 out of     128    0%
+  Number of BUFPLLs:                             0 out of       8    0%
+  Number of BUFPLL_MCBs:                         0 out of       4    0%
+  Number of DSP48A1s:                            0 out of      32    0%
+  Number of ICAPs:                               0 out of       1    0%
+  Number of MCBs:                                0 out of       2    0%
+  Number of PCILOGICSEs:                         0 out of       2    0%
+  Number of PLL_ADVs:                            0 out of       2    0%
+  Number of PMVs:                                0 out of       1    0%
+  Number of STARTUPs:                            0 out of       1    0%
+  Number of SUSPEND_SYNCs:                       0 out of       1    0%
+
+
+Overall effort level (-ol):   High 
+Router effort level (-rl):    High 
+
+Starting initial Timing Analysis.  REAL time: 2 secs 
+Finished initial Timing Analysis.  REAL time: 2 secs 
+
+Starting Router
+
+
+Phase  1  : 6 unrouted;      REAL time: 2 secs 
+
+Phase  2  : 6 unrouted;      REAL time: 2 secs 
+
+Phase  3  : 6 unrouted;      REAL time: 2 secs 
+
+Phase  4  : 6 unrouted; (Par is working to improve performance)     REAL time: 2 secs 
+
+Updating file: First_Experiment_Add.ncd with current fully routed design.
+
+Phase  5  : 0 unrouted; (Par is working to improve performance)     REAL time: 3 secs 
+
+Phase  6  : 0 unrouted; (Par is working to improve performance)     REAL time: 3 secs 
+
+Phase  7  : 0 unrouted; (Par is working to improve performance)     REAL time: 3 secs 
+
+Phase  8  : 0 unrouted; (Par is working to improve performance)     REAL time: 3 secs 
+
+Phase  9  : 0 unrouted; (Par is working to improve performance)     REAL time: 3 secs 
+
+Phase 10  : 0 unrouted; (Par is working to improve performance)     REAL time: 3 secs 
+Total REAL time to Router completion: 3 secs 
+Total CPU time to Router completion: 3 secs 
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Generating "PAR" statistics.
+INFO:Par:459 - The Clock Report is not displayed in the non timing-driven mode.
+Timing Score: 0 (Setup: 0, Hold: 0)
+
+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 3 secs 
+Total CPU time to PAR completion: 3 secs 
+
+Peak Memory Usage:  4523 MB
+
+Placer: Placement generated during map.
+Routing: Completed - No errors found.
+
+Number of error messages: 0
+Number of warning messages: 0
+Number of info messages: 2
+
+Writing design to file First_Experiment_Add.ncd
+
+
+
+PAR done!
