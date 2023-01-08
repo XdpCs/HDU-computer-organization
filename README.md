@@ -1,5 +1,12 @@
 # HDU-Computer-Organization-And-Architecture-Experiment
 
+![GitHub watchers](https://img.shields.io/github/watchers/XdpCs/HDU-Computer-Organization-And-Architecture-Experiment?style=social)
+![GitHub stars](https://img.shields.io/github/stars/XdpCs/HDU-Computer-Organization-And-Architecture-Experiment?style=social)
+![GitHub forks](https://img.shields.io/github/forks/XdpCs/HDU-Computer-Organization-And-Architecture-Experiment?style=social)
+![GitHub last commit](https://img.shields.io/github/last-commit/XdpCs/HDU-Computer-Organization-And-Architecture-Experiment?style=flat-square)
+![GitHub repo size](https://img.shields.io/github/repo-size/XdpCs/HDU-Computer-Organization-And-Architecture-Experiment?style=flat-square)
+![GitHub license](https://img.shields.io/github/license/XdpCs/HDU-Computer-Organization-And-Architecture-Experiment?style=flat-square)
+
 ## 杭电计算机组成实验
 
 * [实验1-全加器设计实验](./note/First_experiment.md)
