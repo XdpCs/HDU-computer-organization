@@ -20,4 +20,6 @@
 * [实验9-实现R-I型指令的CPU设计实验](./note/Ninth_experiment.md)
 * [实验10-实现R-I-J型指令的CPU设计实验](./note/Tenth_experiment.md)
 
-## 创作不易，给个🌟吧
+## License
+
+HDU-Computer-Organization-And-Architecture-Experiment is under the [MIT](LICENSE). Please refer to LICENSE for more information.
