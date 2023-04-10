@@ -1,4 +1,4 @@
-# HDU-Computer-Organization-And-Architecture-Experiment
+# HDU-computer-organization-and-architecture-experiment
 
 ![GitHub watchers](https://img.shields.io/github/watchers/XdpCs/HDU-Computer-Organization-And-Architecture-Experiment?style=social)
 ![GitHub stars](https://img.shields.io/github/stars/XdpCs/HDU-Computer-Organization-And-Architecture-Experiment?style=social)
@@ -22,4 +22,4 @@
 
 ## License
 
-HDU-Computer-Organization-And-Architecture-Experiment is under the [MIT](LICENSE). Please refer to LICENSE for more information.
+HDU-computer-organization-and-architecture-experiment is under the [MIT](LICENSE). Please refer to LICENSE for more information.
