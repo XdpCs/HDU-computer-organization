@@ -1,1 +1,0 @@
-vhdtdtfi -lang verilog -prj seventh_experiment -o F:/Desktop/FPGA/tenth_experiment/OP_Func.tfi -lib work F:/Desktop/FPGA/tenth_experiment//OP_Func.v -module OP_Func -template E:/Xlinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
