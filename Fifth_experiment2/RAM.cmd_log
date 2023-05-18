@@ -1,1 +1,0 @@
-xst -intstyle ise -ifn "F:/Desktop/FPGA/Fifth_experiment1/RAM.xst" -ofn "F:/Desktop/FPGA/Fifth_experiment1/RAM.syr" 
