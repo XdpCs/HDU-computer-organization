@@ -22,4 +22,4 @@
 
 ## License
 
-HDU-computer-organization-experiment is under the [MIT](LICENSE). Please take a look at LICENSE for more information.
+HDU-computer-organization is under the [MIT](LICENSE). Please take a look at LICENSE for more information.
