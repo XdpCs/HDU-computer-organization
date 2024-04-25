@@ -331,7 +331,7 @@ Loop1:lw $t3,0($t0);
 
 ## 代码地址
 
-[代码地址](../Tenth_experiment)
+[代码地址](https://github.com/XdpCs/HDU-computer-organization/tree/master/Tenth_experiment)
 
 ## 链接
 

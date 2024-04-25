@@ -68,7 +68,7 @@ endmodule
 
 ## 代码地址
 
-[代码地址](../First_experiment)
+[代码地址](https://github.com/XdpCs/HDU-computer-organization/tree/master/First_experiment)
 
 ## 链接
 

@@ -302,11 +302,11 @@ endmodule
 
 ## 代码地址
 
-[代码地址-1](../Fifth_experiment)
+[代码地址-1](https://github.com/XdpCs/HDU-computer-organization/tree/master/Fifth_experiment)
 
-[代码地址-2](../Fifth_experiment1)
+[代码地址-2](https://github.com/XdpCs/HDU-computer-organization/tree/master/Fifth_experiment1)
 
-[代码地址-3](../Fifth_experiment2)
+[代码地址-3](https://github.com/XdpCs/HDU-computer-organization/tree/master/Fifth_experiment2)
 
 ## 链接
 
