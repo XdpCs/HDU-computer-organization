@@ -131,7 +131,7 @@ memory_initialization_vector=00000827 0001102b 00421820 00622020 00832820 00a330
 
 ## 代码地址
 
-[代码地址](../Seventh_experiment)
+[代码地址](https://github.com/XdpCs/HDU-computer-organization/tree/master/Seventh_experiment)
 
 ## 链接
 

@@ -141,7 +141,7 @@ endmodule
 
 ## 代码地址
 
-[代码地址](../Third_experiment)
+[代码地址](https://github.com/XdpCs/HDU-computer-organization/tree/master/Third_experiment)
 
 ## 链接
 

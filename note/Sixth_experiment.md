@@ -81,7 +81,7 @@ add $31,$11,$26;	#$31 = 9000_6FF1
 
 ## 代码地址
 
-[代码地址](../Sixth_experiment)
+[代码地址](https://github.com/XdpCs/HDU-computer-organization/tree/master/Sixth_experiment)
 
 ## 链接
 

@@ -79,7 +79,7 @@ endmodule
 
 ## 代码地址
 
-[代码地址](../Second_experiment)
+[代码地址](https://github.com/XdpCs/HDU-computer-organization/tree/master/Second_experiment)
 
 ## 链接
 
