@@ -1,11 +1,11 @@
-# HDU-computer-organization-and-architecture-experiment
+# HDU-computer-organization-experiment
 
-![GitHub watchers](https://img.shields.io/github/watchers/XdpCs/HDU-Computer-Organization-And-Architecture-Experiment?style=social)
-![GitHub stars](https://img.shields.io/github/stars/XdpCs/HDU-Computer-Organization-And-Architecture-Experiment?style=social)
-![GitHub forks](https://img.shields.io/github/forks/XdpCs/HDU-Computer-Organization-And-Architecture-Experiment?style=social)
-![GitHub last commit](https://img.shields.io/github/last-commit/XdpCs/HDU-Computer-Organization-And-Architecture-Experiment?style=flat-square)
-![GitHub repo size](https://img.shields.io/github/repo-size/XdpCs/HDU-Computer-Organization-And-Architecture-Experiment?style=flat-square)
-![GitHub license](https://img.shields.io/github/license/XdpCs/HDU-Computer-Organization-And-Architecture-Experiment?style=flat-square)
+![GitHub watchers](https://img.shields.io/github/watchers/XdpCs/HDU-computer-organization?style=social)
+![GitHub stars](https://img.shields.io/github/stars/XdpCs/HDU-computer-organization?style=social)
+![GitHub forks](https://img.shields.io/github/forks/XdpCs/HDU-computer-organization?style=social)
+![GitHub last commit](https://img.shields.io/github/last-commit/XdpCs/HDU-computer-organization?style=flat-square)
+![GitHub repo size](https://img.shields.io/github/repo-size/XdpCs/HDU-computer-organization?style=flat-square)
+![GitHub license](https://img.shields.io/github/license/XdpCs/HDU-computer-organization?style=flat-square)
 
 ## 杭电计算机组成实验
 
@@ -22,4 +22,4 @@
 
 ## License
 
-HDU-computer-organization-and-architecture-experiment is under the [MIT](LICENSE). Please refer to LICENSE for more information.
+HDU-computer-organization-experiment is under the [MIT](LICENSE). Please take a look at LICENSE for more information.
